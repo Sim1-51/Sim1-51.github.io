@@ -1,0 +1,94 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    position: absolute;
+    color: cornflowerblue;
+    font-size: 40px;
+    top: -10px;
+    left: 30px;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+    border: 3px solid blue;
+    color: white;
+    font-size: 50px;
+    font-family: sans-serif;
+    background-color: black;
+    border-radius: 25px;
+}
+
+#forza4 {
+    position: absolute;
+    top: 70px;
+    left: 33%;
+    #forza4-reset {
+        position: absolute;
+        top: 350px;
+        right: -150px;
+        button {
+            background-color: aqua;
+            width: 110px;
+            height: 30px;
+            font-size: 20px;
+            text-align: center;
+        }
+    }
+}
+
+table {
+    background-color: blue;
+    border: 5px solid blue;
+    border-radius: 10px;
+}
+
+#inizio {
+    position: absolute;
+    top: 50px;
+    left: -300px;
+    font-size: larger;
+    #b1 {
+        font-size: 40px;
+        background-color: aquamarine;
+        color: blueviolet;
+    }
+    #b2 {
+        font-size: 40px;
+        background-color: aquamarine;
+        color: blueviolet;
+    }
+    #p1 {
+        position: relative;
+        top: -55px;
+        left: 150px;
+        color: red;
+    }
+    #p2 {
+        position: relative;
+        top: -55px;
+        left: 150px;
+        color: rgb(244, 244, 92);
+    }
+    .p {
+        color: white;
+    }
+}
+
+#achitocca {
+    position: absolute;
+    top: 15cm;
+    left: 2cm;
+    color: white;
+    font-size: 25px;
+    #eilturnodi {
+        position: relative;
+        top: -0.5cm;
+        color: white;
+    }
+}

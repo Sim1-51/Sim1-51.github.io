@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TRIS : il gioco</title>
+        <meta charset="UTS-8">
+        <link rel="stylesheet" href="trisstyle.css">
+    </head>
+    <body id="body">
+        <div id="pagina0">
+            <h1 id="tris-title">TRIS : il gioco</h1>
+            <div id="tris" class="giochino1">
+                <table id="griglia">
+                    <tr>
+                        <td id="1-1" class="box"></td>
+                        <td id="1-2" class="box"></td>
+                        <td id="1-3" class="box"></td>
+                    </tr>
+                    <tr>
+                        <td id="2-1" class="box"></td>
+                        <td id="2-2" class="box"></td>
+                        <td id="2-3" class="box"></td>
+                    </tr>
+                    <tr>
+                        <td id="3-1" class="box"></td>
+                        <td id="3-2" class="box"></td>
+                        <td id="3-3" class="box"></td>
+                    </tr>
+                </table>
+                <div id="tris-reset"><button type="button">Ricomincia</button></div>
+                <div id="inizio">
+                    <p class="testo">Chi farà la prima mossa?</p>
+                    <button type="button" id="b1">X</button> <p id="p1">GIOCATORE 1</p>
+                    <p class="testo">oppure</p>
+                    <br>
+                    <button type="button" id="b2">O</button> <p id="p2">GIOCATORE 2</p>
+                </div>
+            </div>
+        </div>
+        <div id="achitocca">
+            <p>E' il turno di : <div id="eilturnodi"></div></p>
+        </div>
+        <script src="trisscript.js"></script>
+    </body>
+</html>

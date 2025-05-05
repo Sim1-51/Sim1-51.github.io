@@ -1,0 +1,83 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    font-size: 50px;
+    color: cornflowerblue;
+}
+
+#tris {
+    position: absolute;
+    top: 125px;
+    left: 31%;
+    td {
+        height: 5cm;
+        width: 5cm;
+    }
+    #tris-reset {
+        position: absolute;
+        top: 275px;
+        right: -300px;
+        button {
+            height: 40px;
+            width: 130px;
+            background-color: aqua;
+            font-size: 20px;
+            border-radius: 5px;
+        }
+    }
+}
+
+td {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 50px;
+    cursor: pointer;
+    border: 3px solid green;
+    font-size: 150px;
+    font-family: sans-serif;
+    background-color: black;
+    border-radius: 5px;
+}
+
+#inizio {
+    position: absolute;
+    top: 10px;
+    left: -300px;
+    font-size: larger;
+    button {
+        font-size: 40px;
+        background-color: aquamarine;
+        color: blueviolet;
+    }
+    #p1 {
+        position: relative;
+        top: -55px;
+        left: 60px;
+        color: red;
+    }
+    #p2 {
+        position: relative;
+        top: -55px;
+        left: 60px;
+        color: cyan;
+    }
+    .testo {
+        color: white;
+    }
+}
+
+#achitocca {
+    position: absolute;
+    top: 15cm;
+    left: 2cm;
+    color: white;
+    font-size: 25px;
+    #eilturnodi {
+        position: relative;
+        top: -0.5cm;
+        color: white;
+    }
+}
