@@ -2751,9 +2751,11 @@ griglia.addEventListener ("click" , function () {
                     }
                 }
             }
-        } else if (n === 42) {
+        } if (n > 41) {
             console.log("ok");
             alert("PAREGGIO !!!");
+            window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ" , "_blank");
+            turno = 3;
         }
     } else if (turno === 3) {
         alert("ATTENZIONE : la partita è terminata");
