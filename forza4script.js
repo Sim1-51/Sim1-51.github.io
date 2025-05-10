@@ -2771,7 +2771,7 @@ body.addEventListener("click" , function () {
         chigioca.style.color = "red";
     } else if (turno === 2) {
         chigioca.innerHTML = "GIOCATORE 2";
-        chigioca.style.color = "cyan"
+        chigioca.style.color = "yellow"
     } else if (turno === 3) {
         chigioca.innerHTML = "ATTENZIONE!!! La partita e' terminata"
         chigioca.style.color = "green"
