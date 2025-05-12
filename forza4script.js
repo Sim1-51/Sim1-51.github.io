@@ -1828,7 +1828,7 @@ griglia.addEventListener ("click" , function () {
                         alert("Ha vinto il GIOCATORE 1 !!!") ;
                         turno = 3 ;
                         n = n - 1;
-                    } else if (win9 < 0) {
+                    } else if (win10 < 0) {
                         alert("Ha vinto il GIOCATORE 2 !!!") ;
                         turno = 3 ;
                         n = n - 1;
@@ -2754,7 +2754,7 @@ griglia.addEventListener ("click" , function () {
         } if (n > 41) {
             console.log("ok");
             alert("PAREGGIO !!!");
-            window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ" , "_blank");
+            window.location = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
             turno = 3;
         }
     } else if (turno === 3) {

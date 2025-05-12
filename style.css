@@ -46,3 +46,12 @@ li {
     top: 480px;
     left: 450px;
 }
+
+#consiglio {
+    color: rgb(159, 0, 180);
+    position: absolute;
+    right: 2cm;
+    border: 2px white solid;
+    background-color: white;
+    top: 9.5cm;
+}
