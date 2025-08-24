@@ -356,7 +356,7 @@ casella6.addEventListener ("click" , function () {
     } if (inizio != 0) {
         if (boxx41 === 1) {
             if (box6 === 1) {
-                box6     = 2 ;
+                box6 = 2 ;
                 if (turno === 1) {
                     casella6.innerHTML = "𒊹" ;
                     turno = 2 ;

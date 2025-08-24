@@ -1,0 +1,31 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: blueviolet;
+}
+
+#moneta {
+    height: 10cm;
+    width: 15cm;
+    right: 12.5cm;
+    top: 5cm;
+    background-color: lightgray;
+    position: absolute;
+    align-items: center;
+}
+
+#bottone {
+    position: absolute;
+    top: 16cm;
+    right: 18.5cm;
+    button {
+        background-color: aquamarine;
+        color: blue;
+        height: 1cm;
+        width: 3cm;
+    }
+}
