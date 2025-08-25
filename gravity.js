@@ -31,6 +31,12 @@ inizioGiallo.addEventListener ("click" , function() {
     }
 })
 
+
+let fnaf = new Audio("fnaf_ahhh.mp3")
+let gato = new Audio("rido_gatto.mp3");
+let baguette = new Audio("baguette_landia.mp3");
+
+
 const casella1 = document.getElementById ("6-1") ;
 const casella2 = document.getElementById ("6-2") ;
 const casella3 = document.getElementById ("6-3") ;
@@ -6427,7 +6433,11 @@ griglia.addEventListener ("click" , function () {
         } if (n > 41) {
             console.log("ok");
             alert("PAREGGIO !!!");
-            window.location = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+            if (win1 > 0) {
+                gato.play(5000);
+            } else if (win1 < 0) {
+                fnaf.play(6000);
+            }
             turno = 3;
         }
     } else if (turno === 3) {
@@ -6449,4 +6459,10 @@ body.addEventListener("click" , function () {
         chigioca.innerHTML = "ATTENZIONE!!! La partita e' terminata"
         chigioca.style.color = "green"
     }
+})
+
+let sus = document.getElementById("sus");
+sus.addEventListener("click",function(){
+    baguette.play();
+    baguette.loop = true;
 })
